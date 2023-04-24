@@ -1,4 +1,4 @@
-import "./TopBar.css";
+import "../styles/TopBar.css";
 import React from "react";
 
 const TopBar = () => {

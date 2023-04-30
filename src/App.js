@@ -1,11 +1,11 @@
-import Single from "./comp/Single";
+import Write from "./comp/Write";
 import TopBar from "./comp/TopBar";
 
 function App() {
   return (
     <div className="App">
       <TopBar />
-      <Single />
+      <Write/>
     </div>
   );
 }

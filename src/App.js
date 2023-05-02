@@ -9,6 +9,7 @@ import TopBar from "./comp/TopBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+  const user = true;
   return (
     <BrowserRouter>
       <TopBar />
@@ -16,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/write" element={<Write />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/register"  element={user ? <Home />:<Register />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/post/:postId" element={<Single />} />
       </Routes>

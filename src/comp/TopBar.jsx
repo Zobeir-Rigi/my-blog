@@ -3,6 +3,7 @@ import "../styles/TopBar.css";
 import React from "react";
 
 const TopBar = () => {
+  const user = true;
   return (
     <div className="top">
       <div className="topLeft">
@@ -13,15 +14,11 @@ const TopBar = () => {
       </div>
       <div className="topCenter">
         <ul className="topList">
-          <li className="topListItem">
-            <Link to="/" >
-              Home
-            </Link>
-          </li>
-          <li className="topListItem">ABOUT</li>
-          <li className="topListItem">CONTACT</li>
-          <li className="topListItem">WRITE</li>
-          <li className="topListItem">LOGOUT</li>
+          <li className="topListItem"><Link className="link" to="/" > Home</Link></li>
+          <li className="topListItem"><Link className="link" to="/" > About</Link></li>
+          <li className="topListItem"><Link className="link" to="/" > Contact</Link></li>
+          <li className="topListItem"><Link className="link" to="/" > Write</Link></li>
+          <li className="topListItem">{user && "LOGOUT"}</li>
         </ul>
       </div>
       <div className="topRight">

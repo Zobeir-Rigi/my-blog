@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/TopBar.css";
 import React from "react";
 
@@ -12,7 +13,11 @@ const TopBar = () => {
       </div>
       <div className="topCenter">
         <ul className="topList">
-          <li className="topListItem">HOME</li>
+          <li className="topListItem">
+            <Link to="/" >
+              Home
+            </Link>
+          </li>
           <li className="topListItem">ABOUT</li>
           <li className="topListItem">CONTACT</li>
           <li className="topListItem">WRITE</li>
@@ -21,7 +26,8 @@ const TopBar = () => {
       </div>
       <div className="topRight">
         <img
-          className="topImg" alt="profileImg"
+          className="topImg"
+          alt="profileImg"
           src="https://live.staticflickr.com/65535/52399136398_35c64ec6ba_h.jpg"
         />
         <i className=" topSearchIcon fa-solid fa-magnifying-glass"></i>{" "}

@@ -1,11 +1,10 @@
 import TopBar from "./comp/TopBar";
-import Settings from "./comp/Settings";
-
+import Login from "./comp/Login";
 function App() {
   return (
     <div className="App">
       <TopBar />
-      <Settings/>
+      <Login />
     </div>
   );
 }

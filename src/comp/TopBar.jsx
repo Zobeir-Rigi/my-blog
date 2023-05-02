@@ -27,9 +27,12 @@ const TopBar = () => {
           className="topImg"
           alt="profileImg"
           src="https://live.staticflickr.com/65535/52399136398_35c64ec6ba_h.jpg"
-        />):(<><Link className="link" to="/login">Login</Link>
+        />):(<ul className="topList">
+        <li className="topListItem"><Link className="link" to="/login">Login</Link></li>
+        <li className="topListItem">
         <Link className="link" to="/register">Register</Link>
-        </>)}
+        </li>
+        </ul>)}
         
         <i className=" topSearchIcon fa-solid fa-magnifying-glass"></i>{" "}
       </div>

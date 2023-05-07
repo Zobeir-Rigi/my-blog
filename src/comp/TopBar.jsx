@@ -3,7 +3,7 @@ import "../styles/TopBar.css";
 import React from "react";
 
 const TopBar = () => {
-  const user = false;
+  const user = true;
   return (
     <div className="top">
       <div className="topLeft">

@@ -10,7 +10,7 @@ const Header = () => {
       <img
         className="headerImg"
         alt="headerImg"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWop6j2kofPG26zjQo76ayK7o87kf6Y1Iy6w&usqp=CAU"
+        src="https://avatars.githubusercontent.com/u/108760076?v=4"
       />
     </div>
   );

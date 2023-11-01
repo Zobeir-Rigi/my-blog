@@ -3,7 +3,7 @@ import Header from './Header'
 import Posts from "./Posts";
 import SideBar from "./SideBar";
 
-const Home = () => {
+ export const Home = () => {
   return (
     <>
       <Header />
@@ -15,4 +15,3 @@ const Home = () => {
   );
 }
 
-export default Home

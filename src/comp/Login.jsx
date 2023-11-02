@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/Login.css";
 
-const Login = () => {
+export const Login = () => {
   return (
     <div className="login">
       <span className="loginTitle">Login</span>
@@ -28,4 +28,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+

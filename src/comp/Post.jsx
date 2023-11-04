@@ -1,6 +1,6 @@
 import "../styles/Post.css"
 
-const Post = () => {
+export const Post = () => {
   return (
     <div className="post">
       <img
@@ -44,4 +44,3 @@ const Post = () => {
   );
 }
 
-export default Post

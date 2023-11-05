@@ -1,7 +1,7 @@
 import "../styles/Posts.css";
 import Post from "./Post";
 
-const Posts = () => {
+export const Posts = () => {
   return (
     <div className="posts">
       <Post />
@@ -14,4 +14,3 @@ const Posts = () => {
   );
 };
 
-export default Posts;
